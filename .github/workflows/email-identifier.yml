@@ -1,0 +1,17 @@
+name: Email Identifier Workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f1001796@ds.study.iitm.ac.in
+        run: echo "This step is named after my email address!"
+
+      - name: Show date
+        run: date
